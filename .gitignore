@@ -1,0 +1,5 @@
+# Ignore everything in data/ 
+data/
+
+# Don't ignore .gitkeep files
+!.gitkeep
