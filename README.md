@@ -47,3 +47,25 @@ The Leash BELKA challenge is hosted on Kaggle. You can find more information abo
     ```
 
 2. Open the notebook file `leash_belka_challenge.ipynb` and run the cells to execute the code.
+
+
+## Usefull commands
+### Create a new conda environment
+```bash
+conda create --name myenv python=3.9
+```
+
+### Activate the conda environment
+```bash
+conda activate myenv
+```
+
+### Deactivate the conda environment
+```bash
+conda deactivate
+```
+
+### Create a requirements file
+```bash
+pip freeze > requirements.txt
+```
